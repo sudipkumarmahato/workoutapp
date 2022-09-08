@@ -1,0 +1,38 @@
+.home {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 100px;
+   
+  }
+  .workout-details {
+    background: #E2B714;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  }
+  .workout-details h4 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+    color: black;
+  }
+  .workout-details p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  .material-symbols-outlined{
+    color: red;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  .material-symbols-outlined:hover{
+    color: green;
+    cursor: pointer;
+  }
